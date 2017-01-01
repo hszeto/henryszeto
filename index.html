@@ -1,0 +1,447 @@
+<!doctype html>
+<html>
+<head>
+  <title>Henry Szeto</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Henry Szeto">
+  <meta name="keywords" content="Henry Szeto">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <!-- Bootstrap and theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- Hamburger button -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">Henry Szeto</a>
+      </div>
+      <!-- Collapsable menu buttons -->
+      <div class="navbar-collapse collapse"> 
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#map">Map</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav> <!-- End navbar -->
+
+  <!-- Body Content -->
+  <div class="spacer" id="top"></div>
+
+  <div class="section-container">
+    <!-- Home -->
+    <div class="about-container">
+      <img alt="banner" src="img/hsbg.png">
+      <div class="about-section">
+        <a href="#about-me" data-toggle="modal">
+          <img alt="about me" src="img/about-me.png" style="max-width:50%;">
+        </a>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="spacer" id="portfolio"></div>
+    <div class="flex project-container">
+      <div class="project">
+        <a href="#str010" data-toggle="modal"><img src="img/str010.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str015" data-toggle="modal"><img src="img/str015.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str011" data-toggle="modal"><img src="img/str011.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str016" data-toggle="modal"><img src="img/str016.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str012" data-toggle="modal"><img src="img/str012.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str017" data-toggle="modal"><img src="img/str017.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str013" data-toggle="modal"><img src="img/str013.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str018" data-toggle="modal"><img src="img/str018.jpg"></a>
+      </div>
+      <div class="project">
+        <a href="#str014" data-toggle="modal"><img src="img/str014.jpg"></a>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="spacer" id="map"></div>
+    <div class="map-container">
+      <img alt="banner" src="img/mapbg.png">
+      <div class="map-section">
+        <div class="map-contact-content">
+          You and me... Where are we?
+        </div>
+        <div id="googleMap">
+          <div id="map-canvas"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="spacer" id="contact"></div>
+      <div class="contact-section">
+        <div class="map-contact-content">
+          <span id="resumeTxt">Resume:</span> <button class="btn" type="button" name="Download" onClick=window.open("Henry_Szeto_Resume.pdf")>Download</button><br>
+          Email: <a href="mailto:henryszeto@gmail.com?subject=Hello">henryszeto@gmail.com</a><br>
+          GitHub: <a href="https://github.com/hszeto" target="_blank">https://github.com/hszeto</a><br>
+          Location: Temple City, California, USA.
+        </div>
+      </div>
+    <br>
+  </div>
+
+  <!-- Bootstrap Modal -->
+  <div class="modal fade" id='about-me' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>About Me</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <p>I am a full stack web developer at <a href="https://www.iamplus.com" target="_blank">i.am+</a></p>
+          <p>I have experience with Ruby on Rails, HTML, CSS, Bootstrap, Javascript, jQuery, Ruby, React JS, React-Native, Angular JS, Node JS and other technologies.</p>
+          <p>In 1998, I earned my BS Electrical Engineering degree from UCLA.</p>
+          <p>After seven years (1998 to 2005) as an integrated circuit layout designer at <a href="https://www.vitesse.com" target="_blank">Vitesse Semiconductor</a>, a partner and I co-found <a href="http://www.apmbodyjewelry.com/" target="_blank">APM Jewelry</a> in 2005.</p>
+          <p>I have always been fascinated by the mobile and web app revolution ever since the iPhone was released. In 2013, I'd decided to pursue my desire to become a web developer. In the Fall of 2014, I joined the <a href="https://generalassemb.ly/education/web-development-immersive" target="_blank">General Assembly WDI</a> program to learn the ins and outs of web development.</p>
+          <p>In March 2015, I joined i.am+ as a full stack web developer.</p>
+          <p>I enjoy working in smaller teams where members can work together and inspire each other on different projects.
+          </p>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str010' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR010 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str010.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR010<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Tread-Pattern-tr010-Stainless-Steel/dp/B00XKQ5LHS" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str015' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR015 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str015.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            High quality black anodized<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR015<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Black-Tread-Pattern-tr015-Stainless/dp/B00XSFE2JE" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str011' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR011 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str011.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR011<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Tread-Pattern-tr011-Stainless-Steel/dp/B00XJUBIUE" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str016' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR016 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str016.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            High quality black anodized<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR016<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Black-Tread-Pattern-tr016-Stainless/dp/B00XSFREVW" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str012' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR012 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str012.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR012<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Tread-Pattern-tr012-Stainless-Steel/dp/B00XJ9J3IO" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str017' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR017 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str017.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            High quality black anodized<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR017<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Black-Tread-Pattern-tr017-Stainless/dp/B00XSFUTGO" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str013' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR013 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str013.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR013<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Tread-Pattern-tr013-Stainless-Steel/dp/B00XKRUVHC" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str018' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR018 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str018.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            High quality black anodized<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR018<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Black-Tread-Pattern-tr018-Stainless/dp/B00XSGDVR2" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id='str014' role="dialog">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+          <h3>Tire Tread Pattern TR014 Stainless Steel Band Ring</h3>
+        </div>
+        <div class="modal-body clearfix">
+          <img src="img/str014.jpg" width="400" style="float:left;">
+          <b>
+            Long lasting stainless steel<br>
+            Comfort fit design<br>
+            8mm width<br>
+            Size from #7 to #14<br>
+            Part Number: TR014<br>
+          </b>
+          <br>
+          <a  href="https://www.amazon.com/Tread-Pattern-tr014-Stainless-Steel/dp/B00XKR1CRA" 
+              target="_blank" 
+              class="btn btn-info">Buy now from Amazon</a>
+        </div>      
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ALL THE SCRIPT -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Underscore js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Smooth scrolling -->
+    <script type="text/javascript" src="javascript/smooth_scolling.js"></script>
+    
+    <!-- Google Map Script -->
+    <!-- Script from http://opengeocode.org/tutorials/googlemap/googlemaps_5.php -->
+    <script>
+      var map;  // Google map object
+      
+      // Initialize and display a google map
+      function initMap() {
+        // HTML5/W3C Geolocation
+        if ( navigator.geolocation ){
+          navigator.geolocation.getCurrentPosition( UserLocation );
+        // Default to Temple City, CA
+        }else{
+          ShowLocation( 34.1028, -118.0581, "Temple City, CA" );
+        };
+      }
+      
+      // Callback function for asynchronous call to HTML5 geolocation
+      function UserLocation( position ) {
+        ShowLocation( position.coords.latitude, position.coords.longitude, "This is your Location" );
+      }
+      
+      // Display a map centered at the specified coordinates with markers and InfoWindow.
+      function ShowLocation( lat, lng, title ) {
+        // Create Google coordinates for where to center the map
+        var latlng = new google.maps.LatLng( lat, lng );
+        var templeCity = new google.maps.LatLng(34.1028,-118.0581); 
+
+        // Map options for how to display the Google map
+        var mapOptions = { zoom: 12 };
+        
+        // Show the Google map in the div with the attribute id 'map-canvas'.
+        map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+        // Place a Google Marker at Temple City
+        var marker = new google.maps.Marker( { 
+          position: templeCity,     
+          map: map,      
+          title: "I am here at Temple City",
+          icon: 'img/myMarker.png'
+        });
+        
+        // Place a Google Marker at the visitor location 
+        // When you hover over the marker, it will display the title
+        var marker = new google.maps.Marker( { 
+          position: latlng,     
+          map: map,      
+          title: title
+        });
+
+        // Create an InfoWindow for the marker
+        var contentString = "<b>" + title + "</b>"; // HTML text to display in the InfoWindow
+        var infowindow = new google.maps.InfoWindow( { content: contentString } );
+        
+        // Set event to display the InfoWindow anchored to the marker when the marker is clicked.
+        google.maps.event.addListener( marker, 'click', function() { infowindow.open( map, marker ); });
+
+        // Center the map between the 2 markers. Temple City and visitor location.
+        var bounds = new google.maps.LatLngBounds();
+          bounds.extend(latlng);
+          bounds.extend(templeCity);
+          map.fitBounds(bounds);
+      }
+      
+      // Call the method 'Init()' to display the google map when the web page is displayed ( load event )
+      // google.maps.event.addDomListener( window, 'load', Init );
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ2Jf5asOB9LjLK1McfSDcn4rbgPRk-GY&callback=initMap"></script>
+    <!-- End Google Map Script -->
+</body>
+</html>
