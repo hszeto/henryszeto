@@ -1,6 +1,6 @@
 /*
 	COLORS
-	Dark background #151515
+	Dark background #221D1C
 	StarWar Yellow	#FFD700
 */
 
@@ -9,7 +9,7 @@
 }
 
 html,body {
-	background: #222438;
+	background: #221D1C;
 	font-family: 'Cambay', sans-serif;
 	font-weight: normal;
 	font-size: 20px;
@@ -33,7 +33,6 @@ html,body {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
 }
 
@@ -73,6 +72,10 @@ html,body {
   }
 }
 /* End NavBar */
+
+a {
+  text-decoration: none;
+}
 
 h1 {
 	font-size: 120px;
@@ -193,7 +196,7 @@ h1 {
 /* Contact */
 .contact-section{
 	background-color: darkolivegreen;
-	border: 3px solid grey;
+	/*border: 3px solid grey;*/
   border-radius: 10px;
   width: 88%;
   margin: 0 auto;
@@ -213,12 +216,9 @@ h1 {
 	width: 9rem;
 	background-color: orange;
 	color: white;
-	text-decoration: none;
 	border: none;
   outline: none;
 }
 #download-btn:hover{
 	font-weight: bold;
 }
-
-
