@@ -1,11 +1,23 @@
-function navBar() {
-  var x = document.getElementById("mainNavbar");
-  if (x.className === "navbar") {
-      x.className += " responsive";
+function responsiveNavbar() {
+  var nb = document.getElementById("mainNavbar");
+  if (nb.className === "navbar") {
+    nb.className += " responsive";
   } else {
-      x.className = "navbar";
+    nb.className = "navbar";
   }
 };
+
+function activeNavbar() {
+  $("#mainNavbar a").click(function(){
+    var clickedTab = $(this);
+
+    $("#mainNavbar a").each(function(){
+      $(this).removeClass('active');
+    })
+
+    clickedTab.addClass('active');
+  });
+}
 
 function stickyNav() {
   var navbar = document.getElementById("mainNavbar");
@@ -69,4 +81,5 @@ $(document).ready(function() {
 
   stickyNav();
   projectDesc();
+  activeNavbar();
 });
