@@ -247,6 +247,49 @@ h1 {
   margin: -30px auto 0 auto;
   padding-top: 10px;
 }
+#contact-email{
+  width: 300px;
+  margin: 0 auto;
+}
+#contact-email input{
+  font-size: 0.8em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.5em;
+  transition: all 0.3s ease-in-out;
+  width: 94%;
+}
+#contact-email textarea{
+  font-size: 0.8em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.5em;
+  transition: all 0.3s ease-in-out;
+  max-width: 94%;
+  min-width: 94%;
+}
+#contact-email button{
+  font-size: 1em;
+  font-weight: 600;
+  border: 2px solid #FFD700;
+  color: #FFD700;
+  background: transparent;
+  line-height: 1em;
+  padding:0.5em;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  margin: 2px auto 10px auto
+}
+#email-btn-label{
+  padding-left: 80px;
+}
+#contact-email button sub{
+  font-size: 0.6em;
+  font-weight: 300;
+}
+#contact-email button:hover{
+  border: 2px dotted #FFD700;
+}
 #contact-table {
 	margin: 0 auto;
   border-collapse: separate;
