@@ -251,7 +251,7 @@ h1 {
   width: 300px;
   margin: 0 auto;
 }
-#contact-email input{
+#contact-email-input{
   font-size: 0.8em;
   border: 1px solid #ddd;
   background: #fff;
@@ -259,7 +259,7 @@ h1 {
   transition: all 0.3s ease-in-out;
   width: 94%;
 }
-#contact-email textarea{
+#contact-email-textarea{
   font-size: 0.8em;
   border: 1px solid #ddd;
   background: #fff;
@@ -268,7 +268,7 @@ h1 {
   max-width: 94%;
   min-width: 94%;
 }
-#contact-email button{
+#contact-email-btn{
   font-size: 1em;
   font-weight: 600;
   border: 2px solid #FFD700;
@@ -283,11 +283,11 @@ h1 {
 #email-btn-label{
   padding-left: 80px;
 }
-#contact-email button sub{
+#contact-email-btn-sub{
   font-size: 0.6em;
   font-weight: 300;
 }
-#contact-email button:hover{
+#contact-email-btn:hover{
   border: 2px dotted #FFD700;
 }
 #contact-table {
