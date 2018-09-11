@@ -179,8 +179,13 @@ h1 {
 #aboutDetails{
   text-align: justify;
   text-justify: inter-word;
+  margin-top: -25px;
+  line-height: 1.5rem;
 }
-
+#aboutDetails a{
+  color: #FFD700;
+  text-decoration: underline;
+}
 /* Portfolio */
 .project-container{
   max-width: 974px;
