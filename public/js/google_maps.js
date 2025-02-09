@@ -32,7 +32,7 @@ function ShowLocation( lat, lng, title )
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   // Place a Google Marker at Temple City
-  var marker = new google.maps.marker.AdvancedMarkerElement({
+  var marker = new google.maps.Marker({
     position: templeCity,     
     map: map,
     title: "I am here at Temple City",
@@ -41,7 +41,7 @@ function ShowLocation( lat, lng, title )
   
   // Place a Google Marker at the visitor location 
   // When you hover over the marker, it will display the title
-  var marker = new google.maps.marker.AdvancedMarkerElement({ 
+  var marker = new google.maps.Marker({
     position: latlng,     
     map: map,      
     title: title
